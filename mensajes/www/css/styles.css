@@ -1,0 +1,192 @@
+	/*Tarea mensajes*/
+
+	*{
+		margin: 0;
+		padding: 0;
+	}
+
+	/*  Body  */
+	body{
+		font-family: Helvetica,Arial;
+		font-size: 25px;
+		color: #3c2014;
+		text-shadow:1px 1px #896233;
+	}
+
+	header{
+		background-color: #3c2014;
+		/*padding-left: 80px;
+		padding-right: 80px;*/
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+
+	section{
+		padding-left: 80px;
+		padding-right: 80px;
+	}
+	#infoperfil{
+		background-color: #957958;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 8px;
+		width: 80%;
+	}
+
+	#infopersonal{
+		/*background-color: red;*/
+
+		display: inline-block;
+		text-align: right;
+		width: 75%;
+	}
+
+	h1{
+		
+		font-family: Helvetica,Arial;
+		font-size: 60px;
+		/*color: #1f160d;*/
+		color: #e3cbae;
+		vertical-align: top;
+
+	}
+
+	h2{
+		font-family: Helvetica,Arial;
+		font-size: 25px;
+		color: #e3cbae;
+	}
+	h3{
+		display: inline-block;
+		font-family: Helvetica,Arial;
+		font-size: 18px;
+		color: #e3cbae;	
+		/*margin-right: 180px;*/
+
+	}
+	.ima{
+
+		background-color: #e3cbae;
+		border-color:  #1f160d;
+		/*para Firefox*/
+		-moz-border-radius: 5px 5px 5px 5px;
+		/*para Safari y Chrome*/
+		-webkit-border-radius: 5px 5px 5px 5px;
+		/* para Opera */
+		border-radius: 5px 5px 5px 5px;
+		border-style: inset;
+		border-width: 5px;
+		
+	}
+	#perfil{
+		display: inline-block;
+		height: 160px;
+		width: 160px;
+	}
+
+	.ima_mensaje{
+		vertical-align: top;
+		height: 100%;
+		width: 100%;
+	}
+
+
+	figure img{
+		height: auto;
+		width: 100%;
+	}
+
+	.separador{
+		/*background-color: #1f160d;	*/
+		height: 20px;
+		}
+	.mensaje{
+		/*background-color: #3c2014;*/
+		background-color: #542715;
+		border-color: #826441;
+		border-style: inset;
+		border-width: 1px;
+		box-shadow: 2px 2px #826441;
+		/*border-color: #1f160d;*/
+		
+		/*para Firefox*/
+		-moz-border-radius: 5px 5px 5px 5px;
+		/*para Safari y Chrome*/
+		-webkit-border-radius: 5px 5px 5px 5px;
+		/* para Opera */
+		border-radius: 5px 5px 5px 5px;
+		border-width: 2px;
+		box-shadow: 2px 2px #896233;
+		height: auto;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 15px;
+		width: 60%;
+		
+	}
+	.comentador{
+		display: inline-block;
+		width: 20%;
+		
+	}
+
+	.fecha_comentario{
+		font-size: 12px;
+		margin-top: 2%;
+		padding: 2%;
+
+		vertical-align: baseline;
+
+	}	
+	.likes{
+		
+		background-color: #e3cbae;
+		/*para Firefox*/
+		-moz-border-radius: 5px 5px 5px 5px;
+		/*para Safari y Chrome*/
+		-webkit-border-radius: 5px 5px 5px 5px;
+		/* para Opera */
+		border-radius: 5px 5px 5px 5px;
+		display: inline-block;
+		font-family: icomoon;
+		font-size: 13px;
+		margin-left: 70%;
+		padding: 5px;
+		text-shadow:0px 0px #896233;
+		/*margin-right: 5px;*/
+
+	}
+	.voto{
+		color: #3c2014;
+		text-decoration: none;
+	}
+	.voto:hover{
+
+		color: #957958;
+		text-decoration: none;	
+	}
+	.info{
+		display: inline-block;
+		vertical-align: top;
+		margin-left: 2%;
+		width: 75%;
+	}
+
+	.comentario{
+		padding: 5px;
+		/*background-color: #e3cbae;*/
+		/*background-color: #957958;*/
+		background-color: #e3cbae;
+		/*para Firefox*/
+		-moz-border-radius: 5px 5px 5px 5px;
+		/*para Safari y Chrome*/
+		-webkit-border-radius: 5px 5px 5px 5px;
+		/* para Opera */
+		border-radius: 5px 5px 5px 5px;
+		border-style: inset;
+		border-color: #826441;
+		border-width: 1px;
+		height: auto;
+	}
+
+
