@@ -96,6 +96,37 @@
 		width: 100%;
 	}
 
+nav{
+		background-color: #3c2014;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	padding: 1%;
+	
+}
+.menu{
+	background-color: #542715;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 5px;
+	text-align: center;
+	width: auto;
+}
+nav ul li{
+	display: inline-block;
+}
+
+.amigos{
+		background-color: #e3cbae;
+		/*para Firefox*/
+		-moz-border-radius: 5px 5px 5px 5px;
+		/*para Safari y Chrome*/
+		-webkit-border-radius: 5px 5px 5px 5px;
+		/* para Opera */
+		border-radius: 5px 5px 5px 5px;
+		padding: 5px;
+		
+}
+
 	.separador{
 		/*background-color: #1f160d;	*/
 		height: 20px;
@@ -135,7 +166,7 @@
 		margin-top: 2%;
 		padding: 2%;
 
-		vertical-align: baseline;
+		vertical-align: 
 
 	}	
 	.likes{
@@ -155,6 +186,10 @@
 		text-shadow:0px 0px #896233;
 		/*margin-right: 5px;*/
 
+	}
+	.fav{
+		font-family: icomoon2;
+		font-size: 13px;
 	}
 	.voto{
 		color: #3c2014;
